@@ -17,8 +17,8 @@ const geistSans = Geist({
 
 
 export const metadata: Metadata = {
-  title: "R&D Security",
-  description: "Your go-to security partner.",
+  title: "R & D Security",
+  description: "Professional security services for your business. Cameras, alarms, access control, and more. Contact us for a free consultation.",
   icons: {
     icon: [
       { 
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         type: 'image/x-icon',
       },
     ],
-    apple: '/apple-icon.png', 
+    apple: '/apple-touch-icon.png', 
   },
 };
 
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="apple-mobile-web-app-title" content="R&D Security" />
+        <meta name="apple-mobile-web-app-title" content="R & D Security" />
       </head>
       <body className={`font-sans antialiased flex flex-col min-h-screen`}>
         {children}
