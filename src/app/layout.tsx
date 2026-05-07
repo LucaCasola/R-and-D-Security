@@ -26,11 +26,6 @@ export const metadata: Metadata = {
         url: '/favicon.ico',
         type: 'image/x-icon',
       },
-      { 
-        media: '(prefers-color-scheme: dark)',
-        url: '/favicon-dark.ico',
-        type: 'image/x-icon',
-      },
     ],
     apple: '/apple-touch-icon.png', 
   },
