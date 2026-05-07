@@ -1,6 +1,6 @@
 {
   "main": ".open-next/worker.js",
-  "name": "randdsecurity",
+  "name": "r-and-d-security",
   "compatibility_date": "2025-03-25",
   "compatibility_flags": [
     "nodejs_compat"
