@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <main className="mt-0">
       <div id="scrollto" className="col scroll-mt-28">
-        <h1>R & D Security Home</h1>
+        <h1 className="mt-10">R & D Security</h1>
         <p className="page-description">
           Welcome to R & D Security, your trusted partner for comprehensive security solutions. 
           We help businesses stay secure.
         </p>
       </div>
-      <ContactForm />
+      <ContactForm variant={"contained"} />
     </main>
   );
 }

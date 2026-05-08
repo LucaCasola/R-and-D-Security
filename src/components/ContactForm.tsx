@@ -129,7 +129,7 @@ export default function ContactForm({
       <FieldSet className="w-9/10 md:w-xl lg:w-3xl">
         { variant == "default" || variant == undefined ? (
           <FieldLegend className="text-center!">
-            <h2>Contact Me</h2>
+            <h2>Contact Us</h2>
           </FieldLegend>
         ) : (
           <FieldLegend>
@@ -137,7 +137,7 @@ export default function ContactForm({
           </FieldLegend>
         )}
         <FieldDescription className="text-md">
-          Have any questions or looking for a quote? Fill out the form below and I'll be in touch within the day.
+          Have any questions or looking for a quote? Feel free to send us a message.
         </FieldDescription>
 
         <FieldGroup>
