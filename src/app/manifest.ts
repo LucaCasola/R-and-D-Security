@@ -12,8 +12,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Professional Security Services for Your Business',
     start_url: '/',
     icons: [
-      { src: '/andriod-chrome-icon-192x192.png', sizes: '192x192', type: 'image/png' },
-      { src: '/andriod-chrome-icon-512x512.png', sizes: '512x512', type: 'image/png' },
+      { src: '/android-chrome-icon-192x192.png', sizes: '192x192', type: 'image/png' },
+      { src: '/android-chrome-icon-512x512.png', sizes: '512x512', type: 'image/png' },
     ],
     background_color: '#ffffff',
     theme_color: '#ffffff',
